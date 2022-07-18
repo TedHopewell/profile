@@ -4,17 +4,17 @@ function Contact() {
    return (
       <div className="app__social">
          <div>
-            <a href="https://github.com/codexpression-nj">
+            <a href="https://github.com/TedHopewell">
                 <BsGithub/>
             </a>
          </div>
          <div>
-            <a href="https://www.linkedin.com/in/jessica-nokwanda-maranjane/">
+            <a href="https://www.linkedin.com/in/molebaleng-hopewell-maome-242814aa/">
                <BsLinkedin />
             </a>
          </div>
          <div>
-            <a href="https://twitter.com/nokwanda_jm">
+            <a href="https://twitter.com/ted_hopewell">
                <BsTwitter />
             </a>
          </div>
