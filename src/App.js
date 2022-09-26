@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.scss';
 import Projects from './Projects/Project';
 

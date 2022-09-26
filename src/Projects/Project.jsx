@@ -8,16 +8,12 @@ import Contact from '../Contact/Contact';
 function Projects() {
    return (
       <>
-         <h2 className="head-text">
-            <span> Portfolio Section </span>
-         </h2>
-         <span style={{color:'#98C942'}}> Codetribe Tembisa 2022</span>
-
+        
          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', margin:'20px' }}>
          <img src="https://avatars.githubusercontent.com/u/105056745?s=96&amp;v=4" alt="@TedHopewell" size="48" height="48" width="48" data-view-component="true" class="avatar circle mr-3" />
-            <h2 style={{margin:'5px'}}>
-               Hopewell Molebaleng Maome
-            </h2>
+            <h1 style={{margin:'5px'}}>
+               Molebaleng Hopewell Maome
+            </h1>
 
          </div>
          
