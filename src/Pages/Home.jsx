@@ -1,9 +1,5 @@
-
-
 import Projects from '../Projects/Project';
 import Main from '../main/main';
-
-
 
 
 function App() {

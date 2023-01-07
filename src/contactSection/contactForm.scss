@@ -107,4 +107,12 @@
     background-color: rgba(244, 244, 244,0.95);
 }
 
+#footer{
+    
+    background-color: rgba(146,200,62,0);
+    @media screen and (max-width: 900px) {  
+        font-size: '10px';     
+     }
+}
+
 

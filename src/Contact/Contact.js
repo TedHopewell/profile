@@ -19,7 +19,7 @@ function Contact() {
             </a>
          </div>
          <div>
-            <a href="">
+            <a href="file:///C:/Users/MMABORE/Desktop/Molebaleng%20Hopewell%20MaomeMH.pdf">
                <BsDownload />
             </a>
          </div>
