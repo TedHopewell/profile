@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import "./Project.scss";
-
+import ContactForm from '../contactSection/contactForm';
 import ProjectData from './ProjectData'
 import Contact from '../Contact/Contact';
 function Projects() {
@@ -74,8 +74,13 @@ function Projects() {
                   </div>
                </div>
             ))}
+            
          </motion.div>
+         
+               <ContactForm />
+         
       </>
+
    )
 }
 

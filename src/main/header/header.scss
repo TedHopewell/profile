@@ -42,7 +42,7 @@
     padding-right: 50px;
 }
 .small{
-    color:rgb(240, 218, 21);
+    color:rgba(146,200,62,0.87);
     padding-bottom:20px;
 }
 .big{
@@ -60,14 +60,15 @@
 .info_buttons .button{
     width: 250px;
     height: 40px;
-    border: 1px solid rgb(240, 218, 21);
+    border: 1px solid rgba(146,200,62,0.87);
     border-radius: 10px;
     margin-top: 10px;
     background-color: transparent;
     color: white;
+    cursor: pointer;
 }
 .info_buttons .button:hover{
-    background-color: rgb(253, 238, 104);
+    background-color: rgba(146,200,62,0.87);
     color: black;
 }
 
