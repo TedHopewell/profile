@@ -23,15 +23,49 @@ function About() {
               My expertise is in front-end web applications and 
               the main languages ​​in my technology are JavaScript, 
               React and of course HTML/CSS. I'm a lifelong learner 
-              ,I'm currently navigating to backend development using MERN stack.
+              ,I'm currently navigating to backend development using Firebase Firestore, AWS Amplify and MERN stack.
           </p>
         </div>
         <div className="about_skills">
           <h1>Skills</h1>
           <div className="skills">
-            {skills.map((skill)=>(
-              <div className="skills_container"><p>{skill}</p></div>
-            ))}
+           
+              <div className="skills_container">
+                <p>React JS</p>
+              </div>
+              <div className="skills_container">
+              <p>React </p>
+            </div>
+            <div className="skills_container">
+              <p>Javascript </p>
+            </div>
+            <div className="skills_container">
+              <p>Java </p>
+            </div>
+            <div className="skills_container">
+              <p>PHP </p>
+            </div>
+            <div className="skills_container">
+              <p>Firebase</p>
+            </div>
+            <div className="skills_container">
+              <p>Github</p>
+            </div>
+            <div className="skills_container">
+              <p>Node JS</p>
+            </div>
+            <div className="skills_container">
+              <p>MERN </p>
+            </div>
+            <div className="skills_container">
+              <p>Figma </p>
+            </div>
+            <div className="skills_container">
+              <p>Canva </p>
+            </div>
+            <div className="skills_container">
+              <p>Wordpress </p>
+            </div>
           
          
           </div>

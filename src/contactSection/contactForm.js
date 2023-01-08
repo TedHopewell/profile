@@ -32,14 +32,14 @@ function ContactForm() {
                 <div id="cover-letter">
                   Hopewell Maome<br></br><br></br>
                   React Developer<br></br><br></br>
-                  Johannnesburg, GP 2041<br></br><br></br>
+                  Johannesburg, GP 2041<br></br><br></br>
                   hopewellmaome@gmail.com<br></br><br></br>
 
                   RE: Enthusiastic and Hard-Working Software Developer<br></br><br></br>
                   Dear Director of Human Resources,<br></br><br></br>
 
                   Please accept this letter as an expression of my interest in the Software Developer position.<br></br>
-                  I am a highly motivated and progress-focused Full Stack Web Multiplatform Mobile App Developer with over 12 months experience in this industry.<br></br>
+                  I am a highly motivated and progress-focused Full Stack Web and Mobile App Developer with over 12 months experience in this industry.<br></br>
                   Throughout the course of my career, I have been perfecting my virtualization and software development abilities.<br></br>
                   I am a capable and consistent problem-solver skilled at prioritizing and managing my projects with proficiency.<br></br> 
                   In my previous role, I contributed communication, interpersonal, and business analysis toward team efforts and business improvements.<br></br> 

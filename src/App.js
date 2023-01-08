@@ -1,7 +1,7 @@
 import { React} from 'react';
 import './App.scss';
 import Home from './Pages/Home';
-import TestPage from './main/about/testPage';
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from './Projects/Project';
 
@@ -15,9 +15,8 @@ export default function App() {
 
           <BrowserRouter>
                 <Routes>
-                  <Route path="/" element={<TestPage />}>
+                  <Route path="/" element={<Home />}>
                     <Route path="/" element={<Home />} />
-                    <Route path="testPage" element={<TestPage />} />
                     <Route path="Project" element={<Projects /> } />
                   </Route>
                 </Routes>

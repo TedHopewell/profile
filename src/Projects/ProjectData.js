@@ -8,8 +8,10 @@ import myImage from '../assets/image6.png'
 import myImage2 from '../assets/image7.png'
 import myImage3 from '../assets/image8.png'
 import whatsapp from '../assets/Screenshot 2022-12-22 063415.png'
-import flagScammers from '../assets/s2.png'
+import temporary from '../assets/s2.png'
 import restaurant from '../assets/rest.png'
+
+import flagScammers from '../assets/ss.png'
 
 
 
@@ -22,6 +24,15 @@ const ProjectData = [
       projectLink: "",
       imageUrl: flagScammers,
       tag: "React Native",
+   },
+
+   {
+      title: "Hotel Booking App",
+      description: "A React Native App for Hotel bookings",
+      codeLink: "https://github.com/LindokuhleMnguni56/Flag-scammers",
+      projectLink: "",
+      imageUrl: temporary,
+      tag: "ReactJS",
    },
 
    {

@@ -11,7 +11,7 @@ function Projects() {
         
          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', margin:'20px' }}>
          <img src="https://avatars.githubusercontent.com/u/105056745?s=96&amp;v=4" alt="@TedHopewell" size="48" height="48" width="48" data-view-component="true" class="avatar circle mr-3" />
-            <h1 style={{margin:'5px'}}>
+            <h1 style={{margin:'5px',textShadow:' 0 0 25px rgba(146,200,62,0.87)'}}>
                Molebaleng Hopewell Maome
             </h1>
 
