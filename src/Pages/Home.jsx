@@ -1,14 +1,21 @@
-import Projects from '../Projects/Project';
+
 import Main from '../main/main';
+import React from 'react';
+import '../App.scss';
+import Projects from '../Projects/Project';
+import ContactForm from '../contactSection/contactForm';
 
 
-function App() {
+
+function Home() {
+  
   return (
-    <div className="home-page">
+    <div className="app">
       <div id="app__works" className="app__container work">
         <div className="app__wrapper app__flex">
-          <Main></Main>
-          <Projects /> 
+          <Main />
+           <Projects />
+           <ContactForm />
         </div>
       </div>
     </div>
@@ -16,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

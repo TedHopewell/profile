@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import "./Project.scss";
-import ContactForm from '../contactSection/contactForm';
 import ProjectData from './ProjectData'
 import Contact from '../Contact/Contact';
 function Projects() {
@@ -12,7 +11,7 @@ function Projects() {
          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', margin:'20px' }}>
          <img src="https://avatars.githubusercontent.com/u/105056745?s=96&amp;v=4" alt="@TedHopewell" size="48" height="48" width="48" data-view-component="true" class="avatar circle mr-3" />
             <h1 style={{margin:'5px',textShadow:' 0 0 25px rgba(146,200,62,0.87)'}}>
-               Molebaleng Hopewell Maome
+               Hopewell Maome
             </h1>
 
          </div>
@@ -77,7 +76,7 @@ function Projects() {
             
          </motion.div>
          
-               <ContactForm />
+               
          
       </>
 

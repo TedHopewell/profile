@@ -1,11 +1,15 @@
 // import logo from './logo.svg';
 import React from "react";
 import './header.scss'
+import { Navigate } from "react-router-dom";
 
 
 function Header() {
-  
+  const [gotToProject, setGoToProjects] = React.useState(false)
 
+  if(gotToProject){
+    return <Navigate to="/Projects" />;
+  }
   return (
     <div className="main">
       <div className="info">
@@ -15,7 +19,12 @@ function Header() {
             <h1 className="big">I am a Mobile and web Developer</h1>
         </div>
         <div className="info_buttons">
-            <button className="button">Recent Projects</button><br/>
+            <button onClick={() =>{
+              setGoToProjects(true);
+              }} 
+              className="button">
+                Recent Projects
+            </button><br/>
             <button className="button">Download Resume</button>
         </div>
       </div>

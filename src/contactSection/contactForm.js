@@ -7,8 +7,38 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
+import { db } from "../config-file";
 
-function ContactForm() {
+import { collection, addDoc} from 'firebase/firestore'
+
+
+function ContactForm(props) {
+
+  const [employerName, setEmployerName] = React.useState("");
+  const [employerEmail, setEmployerEmail] = React.useState("");
+  const [employerPhone, setEmployerPhone] = React.useState("");
+  const [empDetail, setEmpDetail] = React.useState("");
+
+
+   const add =(()=>{
+       
+        const collectionRef= collection(db, "collection");
+        
+        const employer ={
+            employerName:employerName ,
+            employerEmail:employerEmail,
+            employerPhone:employerPhone,
+            empDetail:empDetail,
+           
+        };
+        addDoc(collectionRef, employer).then (()=>{
+            alert("Your info has been added successfully, Thank you I will give you a call")
+        }).catch((error)=>{
+            console.log(error);
+        })
+
+        props.add(employerName, employerEmail, employerPhone, empDetail, employer);
+    })
   return (
     <div>
           <div className="main_contact">
@@ -18,12 +48,12 @@ function ContactForm() {
             </div>
             <div id="main_form">
               <div id='left-side'>
-                    <input placeholder="Employer's name" id="name"></input><br></br>
-                    <input placeholder="Employer's email" id="name"></input><br></br>
-                    <input placeholder="Employer's phone" id="name"></input><br></br>
-                    <input placeholder="Interview Detatils" id="message"></input><br></br>
-
-                    <button id="submit-btn">Submit</button><br></br>
+                    <input placeholder="Employer's name" id="name" onChange={(e)=>setEmployerName(e.target.value)}></input><br></br>
+                    <input placeholder="Employer's email" id="name" onChange={(e)=>setEmployerEmail(e.target.value)}></input><br></br>
+                    <input placeholder="Employer's phone" id="name" onChange={(e)=>setEmployerPhone(e.target.value)}></input><br></br>
+                    <textarea placeholder="Interview Detatils" id="message"  onChange={(e)=>setEmpDetail(e.target.value)}></textarea><br></br>
+ 
+                    <button id="submit-btn" onClick={add}>Submit</button><br></br>
               </div>
               
               <div id='right-side'>
