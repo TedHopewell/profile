@@ -13,7 +13,7 @@ function Home() {
     <div className="app">
       <div id="app__works" className="app__container work">
         <div className="app__wrapper app__flex">
-          <Main />
+           <Main />
            <Projects />
            <ContactForm />
         </div>

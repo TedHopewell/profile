@@ -7,10 +7,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
+
 import { db } from "../config-file";
 
 import { collection, addDoc} from 'firebase/firestore'
 
+
+import ModalPopUp from "../modal/modal";
 
 function ContactForm(props) {
 
@@ -19,6 +22,8 @@ function ContactForm(props) {
   const [employerPhone, setEmployerPhone] = React.useState("");
   const [empDetail, setEmpDetail] = React.useState("");
 
+  const [show, setShow] = React.useState(false);
+  
 
    const add =(()=>{
        
@@ -32,7 +37,7 @@ function ContactForm(props) {
            
         };
         addDoc(collectionRef, employer).then (()=>{
-            alert("Your info has been added successfully, Thank you I will give you a call")
+            alert("Thank you for engaging with my profile,I will give you a call")
         }).catch((error)=>{
             console.log(error);
         })
@@ -46,6 +51,7 @@ function ContactForm(props) {
               <h2>Contact Me</h2>  
               <Contact/>
             </div>
+
             <div id="main_form">
               <div id='left-side'>
                     <input placeholder="Employer's name" id="name" onChange={(e)=>setEmployerName(e.target.value)}></input><br></br>

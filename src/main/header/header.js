@@ -8,7 +8,7 @@ function Header() {
   const [gotToProject, setGoToProjects] = React.useState(false)
 
   if(gotToProject){
-    return <Navigate to="/Projects" />;
+    return <Navigate to="/contactForm" />;
   }
   return (
     <div className="main">

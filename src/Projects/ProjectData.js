@@ -46,7 +46,7 @@ const ProjectData = [
 
    {
       title: "Whatsapp",
-      description: "A Whatsapp Clone with MERN stack",
+      description: "Whatsapp-web Clone MERN stack",
       codeLink: "https://github.com/TedHopewell/Whatsapp-Clone-MERN-",
       projectLink: "",
       imageUrl: whatsapp,
