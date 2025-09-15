@@ -2,7 +2,7 @@
 import React from "react";
 import './about.scss'
 
-const skills =['HTML5','CSS3','React JS','React Native','Github','Figma','JavaScript','Firebase','MERN','Unity3D']
+const skills =['HTML5','CSS3','SCSS3','React JS','React Native','Github','Figma','JavaScript','Firebase','MERN','Unity3D','Ionic','Redux']
 
 function About() {
   return (

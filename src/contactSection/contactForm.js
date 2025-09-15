@@ -53,14 +53,9 @@ function ContactForm(props) {
             </div>
 
             <div id="main_form">
-              <div id='left-side'>
+              {/*<div id='left-side'>
 
-               {/*<input placeholder="Employer's name" id="name" onChange={(e)=>setEmployerName(e.target.value)}></input><br></br>
-                    <input placeholder="Employer's email" id="name" onChange={(e)=>setEmployerEmail(e.target.value)}></input><br></br>
-                    <input placeholder="Employer's phone" id="name" onChange={(e)=>setEmployerPhone(e.target.value)}></input><br></br>
-                    <textarea placeholder="Interview Detatils" id="message"  onChange={(e)=>setEmpDetail(e.target.value)}></textarea><br></br>
- 
-                    <button id="submit-btn" onClick={add}>Submit</button><br></br>*/}
+               
 
                     <input placeholder="Employer's name" id="name"></input><br></br>
                     <input placeholder="Employer's email" id="name"></input><br></br>
@@ -68,7 +63,7 @@ function ContactForm(props) {
                     <textarea placeholder="Interview Detatils" id="message"></textarea><br></br>
  
                     <button id="submit-btn" onClick={add}>Submit</button><br></br>
-              </div>
+              </div>*/}
               
               <div id='right-side'>
                 <h2>Cover Letter</h2><br></br>

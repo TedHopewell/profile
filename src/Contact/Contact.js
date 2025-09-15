@@ -19,7 +19,7 @@ function Contact() {
             </a>
          </div>
          <div>
-            <a href="file:///C:/Users/MMABORE/Desktop/Molebaleng%20Hopewell%20MaomeMH.pdf">
+            <a href="/MOLEBALENG MAOME Afrihost CV.pdf" download="Hopewell_Maome_CV.pdf">
                <BsDownload />
             </a>
          </div>
