@@ -48,7 +48,7 @@ const ProjectData = [
       title: "Whatsapp",
       description: "Whatsapp-web Clone MERN stack",
       codeLink: "https://github.com/TedHopewell/Whatsapp-Clone-MERN-",
-      projectLink: "https://glistening-starlight-17288a.netlify.app/",
+      projectLink: "https://hilarious-piroshki-896431.netlify.app/",
       imageUrl: whatsapp,
       tag: "ReactJS",
      },

@@ -26,7 +26,7 @@ function Header() {
                 Recent Projects
             </button><br/>
             <button className="button">
-              <a href="/MOLEBALENG MAOME Afrihost CV.pdf" download="Hopewell_Maome_CV.pdf" >Download Resume</a>
+              <a href="/MOLEBALENG HOPEWELL MAOME CV.pdf" download="Hopewell_Maome_CV.pdf" >Download Resume</a>
             </button>
         </div>
       </div>
