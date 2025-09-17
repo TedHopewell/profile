@@ -4,6 +4,7 @@ import React from 'react';
 import '../App.scss';
 import Projects from '../Projects/Project';
 import ContactForm from '../contactSection/contactForm';
+import AppModal from '../modal/appmodal';
 
 
 

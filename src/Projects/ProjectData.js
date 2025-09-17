@@ -17,6 +17,16 @@ import Hotel from '../assets/hotel.png'
 
 const ProjectData = [
 
+   
+   {
+      title: "Food App",
+      description: "A React Native App for ordering food",
+      codeLink: "https://github.com/LindokuhleMnguni56/Restaurant-App",
+      projectLink: "",
+      imageUrl: restaurant,
+      tag: "React Native",
+   },
+
    {
       title: "Flag Scammers",
       description: "A React Native App for Jobseekers",
@@ -35,14 +45,6 @@ const ProjectData = [
       tag: "ReactJS",
    },
 
-   {
-      title: "Food App",
-      description: "A React Native App for ordering food",
-      codeLink: "https://github.com/LindokuhleMnguni56/Restaurant-App",
-      projectLink: "",
-      imageUrl: restaurant,
-      tag: "React Native",
-   },
 
    {
       title: "Whatsapp",

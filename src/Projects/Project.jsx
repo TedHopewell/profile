@@ -17,7 +17,12 @@ function Projects() {
          </div>
          
         <Contact/>
-        
+        {/* <div className="notice">
+         Please note that all my React Native apps are not yet live,<br /> 
+         So the link is currently not working <br /> but please feel free to view 
+         all the source codes for my React Native apps from guthub <br />
+          and view the Native apps from your localhost.
+         </div> */}
 
          <motion.div
             transition={{ duration: 0.5, delayChildren: 0.5 }}
